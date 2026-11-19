@@ -1,0 +1,6 @@
+{
+  "name": "Tehran Dash 3D",
+  "description": "A 3D Subway Surfers-style endless runner featuring an Iranian street runner dashing through Tehran metro tracks and Persian bazaar arches.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,4 @@
+// Uses node_modules when present, or falls back to vendored ./capacitor-android for standalone Android Studio exports
+include ':capacitor-android'
+def nodeCapDir = new File(settingsDir, '../node_modules/@capacitor/android/capacitor')
+project(':capacitor-android').projectDir = nodeCapDir.exists() ? nodeCapDir : new File(settingsDir, 'capacitor-android')
